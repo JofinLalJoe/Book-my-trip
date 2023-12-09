@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 1366px;
+	height: 1700px;
+/*	background-color: black;*/
+	margin: 0 auto;
+}
+.head{
+	width: 1366px;
+	height: 150px;
+/*	background-color: aquamarine;*/
+}
+.logo img{
+	margin: 30px 0px 0px 20px;
+}
+.icon{
+	width: 35px;
+	height: 35px;
+	background: url("images/icons.png")0px -12px;
+	float: left;
+}
+.call, .search{
+	float: right;
+	margin: 50px 150px 0px 0px;
+}
+.call{
+	margin-right: 250px;
+	width: 200px;
+}
+.search input{
+	padding: 5px;
+	border-radius: 10px;
+}
+.search{
+	position: relative;
+}
+.search button{
+	width: 35px;
+	height: 30px;
+	background: url("images/icons.png")0px -59px;
+	border: none;
+	position: absolute;
+	right: 0px;
+	top: 5px;
+}
+.nav{
+	width: 1366px;
+	height: 45px;
+	background-color: #2b68a8;
+}
+.menu{
+	margin-left: 25px;
+	margin-top: auto;
+}
+
+.menu ul, .menu li {
+    text-decoration: none;
+    list-style: none; /* Remove default list styles (bullet points) */
+	display: flex;
+	
+}
+.menu a {
+    text-decoration: none; /* Remove underlines from anchor tags */
+    color: #fff; /* Set the text color for the links */
+	padding: 15px;
+}
+
+
+ .nav-btn{
+	margin: 10px 150px 0 0;
+	float: right;
+ }
+ .nav-btn button {
+	margin-right: 10px;
+	width: 100px;
+	height: 30px;
+	border: none;
+	background-color: #ffdd00;
+	color: rgb(81, 80, 78);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+/* ---------banner-section ----------------*/
+
+.banner{
+	width: 1366px;
+	height: 600px;
+	background-color:tomato;
+	position: relative;
+}
+.banner-img{
+	width: 1366px;
+	height: 600px;
+}
+.widget{
+	width: 1000px;
+	height:150px;
+/*	background-color:rgb(255, 255, 255);*/
+	position: absolute;
+	top: 455px;
+	left: 190px;
+}
+.widget form{
+	border: 8px solid black;
+	height: 100px;
+	background-color: white;
+}
+.widget label{
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.widget select{
+	width: 100px;
+}
+.widget input{
+	width: 100px;
+}
+.widget button{
+	padding: 3px;
+	width: 70px;
+	background-color: slateblue;
+	color: white;
+	border: none;
+}
+.widget h3{
+	width: 170px;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	margin-left: 50px;
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+/* -----------container -------------------*/
+
+.container{
+	width: 1366px;
+	height: 600px;
+	background-color: purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	width: 1366px;
+	height: 400px;
+	background-color: royalblue;
+}
